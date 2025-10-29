@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Логин</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="card">
+    <h2>Вход</h2>
+    <div>
+      <label for="username">Логин</label>
+      <input id="username" type="text" placeholder="Введите логин" />
+      <label for="password">Пароль</label>
+      <input id="password" type="password" placeholder="Введите пароль" />
+      <button id="loginBtn">Войти</button>
+      <div id="error" class="error hidden"></div>
+
+      <div id="afterLogin" class="hidden">
+        <div class="success" id="successMessage">Вход выполнен успешно!</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
